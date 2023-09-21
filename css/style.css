@@ -1,8 +1,15 @@
-.titulos{
+.titulos,.titulos1{
     text-align: center;
     font-family: "Times New Roman", Geneva, Tahoma, sans-serif;
     color: white;
     background-color: red;
+    margin: 0 800px;
+    padding: 0 50px;
+}
+
+.titulos1{
+    margin: 0 740px;
+    padding: 0 auto;
 }
 img{
     width: 500px;
@@ -11,11 +18,14 @@ img{
 #texto{
     text-align:justify;
     font-size: 20px;
+    padding: 0 100px;
 }
 h3{
     text-align: center;
     font-size: 30px;
     background-color: orange;
+    margin: 0 800px;
+
 }
 .centro{
     text-align: center;
@@ -25,5 +35,14 @@ h3{
 .lista{
     display: inline-block;
     text-align: left;
-    font-size: 20px;
+    font-size: 25px;
+}
+.lista1{
+    display: inline-block;
+    text-align: left;
+    font-size: 30px;
+    margin-top: 300px;
+}
+div{
+    padding: 0 100px;
 }
